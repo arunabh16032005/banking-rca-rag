@@ -1,0 +1,19 @@
+Incident: High CPU Utilization
+
+Symptoms:
+cpu usage above 90 percent
+slow response
+thread contention
+service degradation
+
+Root Cause:
+Inefficient queries and excessive thread creation.
+
+Resolution:
+Optimize queries.
+Tune thread pools.
+Scale application instances.
+
+Affected Services:
+Transaction Service
+Analytics Service

@@ -1,0 +1,19 @@
+Incident: Kafka Consumer Lag
+
+Symptoms:
+consumer lag increasing
+delayed processing
+messages not consumed
+backlog accumulation
+
+Root Cause:
+Consumer instance crashed and stopped processing messages.
+
+Resolution:
+Restart consumer service.
+Increase consumer instances.
+Verify broker connectivity.
+
+Affected Services:
+Transaction Monitoring
+Fraud Detection

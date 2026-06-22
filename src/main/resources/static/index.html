@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Enterprise Kafka Monitoring</title>
+</head>
+
+<body>
+
+<h1>Testing System</h1>
+
+<input type="text" id="service" placeholder="Service Name">
+<br><br>
+
+<input type="text" id="level" placeholder="Log Level">
+<br><br>
+
+<input type="text" id="message" placeholder="Log Message">
+<br><br>
+
+<button onclick="sendLog()">Send Log Event</button>
+
+<h2 id="result"></h2>
+
+<script>
+
+async function sendLog() {
+
+    const logEvent = {
+
+        service: document.getElementById("service").value,
+
+        level: document.getElementById("level").value,
+
+        message: document.getElementById("message").value
+    };
+
+    const response = await fetch(
+        "http://localhost:8080/api/logs/send",
+        {
+            method: "POST",
+
+            headers: {
+                "Content-Type": "application/json"
+            },
+
+            body: JSON.stringify(logEvent)
+        }
+    );
+
+    const data = await response.text();
+
+    document.getElementById("result").innerHTML = data;
+}
+
+</script>
+
+</body>
+</html>

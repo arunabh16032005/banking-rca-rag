@@ -1,0 +1,13 @@
+Incident: Database Pool Exhaustion
+
+Symptoms:
+DB exhaustion
+database timeout
+connection refused
+
+Root Cause:
+HikariCP pool exhausted
+
+Resolution:
+Increase pool size
+Check connection leaks

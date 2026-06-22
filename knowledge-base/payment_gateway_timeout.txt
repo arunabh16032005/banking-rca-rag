@@ -1,0 +1,18 @@
+Incident: Payment Gateway Timeout
+
+Symptoms:
+payment timeout
+transaction pending
+payment failed
+gateway timeout
+
+Root Cause:
+Third-party payment gateway API response time exceeded threshold.
+
+Resolution:
+Retry transaction.
+Switch to backup payment provider.
+Notify payment operations team.
+
+Affected Services:
+Payment Service

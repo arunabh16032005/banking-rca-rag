@@ -1,0 +1,19 @@
+Incident: Load Balancer Failure
+
+Symptoms:
+service unavailable
+503 error
+traffic routing failure
+application inaccessible
+
+Root Cause:
+Load balancer health checks failed for all backend instances.
+
+Resolution:
+Restore backend instances.
+Verify health check configuration.
+Restart load balancer.
+
+Affected Services:
+Customer Portal
+Internet Banking

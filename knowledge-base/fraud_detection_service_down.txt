@@ -1,0 +1,18 @@
+			Incident: Fraud Detection Service Down
+
+Symptoms:
+fraud check unavailable
+transaction verification failed
+risk engine timeout
+
+Root Cause:
+Fraud detection engine crashed due to insufficient memory.
+
+Resolution:
+Restart fraud engine.
+Increase memory allocation.
+Investigate crash logs.
+
+Affected Services:
+Fraud Detection
+Transaction Monitoring

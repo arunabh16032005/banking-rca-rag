@@ -1,0 +1,19 @@
+Incident: Network Timeout
+
+Symptoms:
+request timeout
+socket timeout
+service unreachable
+slow communication
+
+Root Cause:
+Network congestion and packet loss between services.
+
+Resolution:
+Verify network routes.
+Check firewall rules.
+Monitor latency.
+
+Affected Services:
+Payment Service
+Customer Service

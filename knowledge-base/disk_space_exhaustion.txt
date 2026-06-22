@@ -1,0 +1,19 @@
+Incident: Disk Space Exhaustion
+
+Symptoms:
+disk full
+unable to write logs
+application crash
+storage alert
+
+Root Cause:
+Excessive log retention consumed available disk space.
+
+Resolution:
+Delete old logs.
+Enable log rotation.
+Increase storage capacity.
+
+Affected Services:
+Logging Platform
+Monitoring Platform

@@ -1,0 +1,19 @@
+Incident: Memory Leak
+
+Symptoms:
+out of memory
+high memory usage
+application restart
+garbage collection spikes
+
+Root Cause:
+Objects were continuously allocated without proper cleanup.
+
+Resolution:
+Fix memory leak in application code.
+Analyze heap dump.
+Optimize object lifecycle.
+
+Affected Services:
+Customer Service
+Loan Service

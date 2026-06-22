@@ -1,0 +1,17 @@
+Incident: DNS Resolution Failure
+
+Symptoms:
+unknown host
+dns lookup failed
+service unreachable
+
+Root Cause:
+DNS server outage prevented hostname resolution.
+
+Resolution:
+Restore DNS service.
+Update DNS records.
+Verify resolver configuration.
+
+Affected Services:
+All Microservices

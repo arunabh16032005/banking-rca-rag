@@ -1,0 +1,19 @@
+Incident: Authentication Failure
+
+Symptoms:
+login failed
+authentication error
+invalid token
+access denied
+
+Root Cause:
+Expired authentication tokens and identity provider outage.
+
+Resolution:
+Refresh tokens.
+Restart identity provider.
+Verify authentication configuration.
+
+Affected Services:
+Authentication Service
+Customer Portal

@@ -1,0 +1,19 @@
+Incident: Redis Connection Failure
+
+Symptoms:
+cache unavailable
+cache timeout
+slow response
+session lookup failure
+
+Root Cause:
+Redis node became unavailable due to memory pressure and network interruption.
+
+Resolution:
+Restart Redis cluster.
+Verify memory utilization.
+Check network connectivity.
+
+Affected Services:
+Authentication Service
+Customer Portal

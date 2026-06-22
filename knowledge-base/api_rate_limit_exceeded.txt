@@ -1,0 +1,19 @@
+Incident: API Rate Limit Exceeded
+
+Symptoms:
+too many requests
+429 error
+api blocked
+request rejected
+
+Root Cause:
+Application exceeded third-party API quota.
+
+Resolution:
+Implement request throttling.
+Use exponential backoff.
+Increase API quota.
+
+Affected Services:
+Payment Gateway Integration
+Notification Service

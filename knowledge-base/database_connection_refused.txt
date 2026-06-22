@@ -1,0 +1,19 @@
+Incident: Database Connection Refused
+
+Symptoms:
+connection refused
+database unreachable
+sql exception
+failed query execution
+
+Root Cause:
+Database server was unavailable due to maintenance activity.
+
+Resolution:
+Restart database service.
+Verify listener configuration.
+Check database health.
+
+Affected Services:
+Payment Service
+Loan Service

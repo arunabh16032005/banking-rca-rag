@@ -1,0 +1,18 @@
+Incident: SSL Certificate Expired
+
+Symptoms:
+ssl handshake failed
+certificate expired
+secure connection failure
+
+Root Cause:
+SSL certificate renewal was missed.
+
+Resolution:
+Renew certificate.
+Deploy updated certificate.
+Enable expiry monitoring.
+
+Affected Services:
+Internet Banking
+Mobile Banking
