@@ -3,17 +3,17 @@ package com.example.demo.rag;
 public class AskResponse {
 
     private String question;
-    private String prompt;
+    private String answer;
 
     public AskResponse() {
     }
 
     public AskResponse(
             String question,
-            String prompt) {
+            String answer) {
 
         this.question = question;
-        this.prompt = prompt;
+        this.answer = answer;
     }
 
     public String getQuestion() {
@@ -26,13 +26,13 @@ public class AskResponse {
         this.question = question;
     }
 
-    public String getPrompt() {
-        return prompt;
+    public String getAnswer() {
+        return answer;
     }
 
-    public void setPrompt(
-            String prompt) {
+    public void setAnswer(
+            String answer) {
 
-        this.prompt = prompt;
+        this.answer = answer;
     }
 }
