@@ -249,7 +249,7 @@ Completed:
 
 ✔ Prompt Builder
 
-Pending:
+Future Scope:
 
 ✖ Anthropic/Gemma Integration
 
@@ -257,13 +257,8 @@ Pending:
 
 ✖ Final RCA Generation
 
-Overall Completion:
 
-~80%
-
----
-
-## Migration to SBI Mac
+## Additional Information:
 
 Clone Repository:
 
@@ -294,4 +289,4 @@ Verify:
 
 Next Step:
 
-Connect SBI Anthropic/Gemma endpoint to RagAskService.
+Connect some Anthropic/Gemma endpoint to RagAskService.
